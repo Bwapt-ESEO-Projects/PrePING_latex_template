@@ -1,0 +1,196 @@
+\documentclass[a4paper]{article}
+\usepackage{fancyhdr}
+
+\input{setup.tex}
+
+%--------------------------------------- DÉBUT DU DOCUMENT ----------------------------------------%
+
+\begin{document}
+
+%Page de garde
+\begin{titlepage}
+	\enlargethispage{2cm}
+
+	\begin{center}
+
+		\textsc{\@title}
+		\vspace*{0.5cm}
+
+		\large{\@author}
+
+		\vspace*{0.5cm}
+		\large{\LARGE{\textbf{\Subject}}}
+		
+		\Dates
+
+		\vspace*{0.5cm}
+		\includegraphics[scale=0.5]{data/Thales_LOGO.png}
+
+		\vspace*{1cm}
+		\includegraphics[scale=0.75]{data/ESEO_LOGO.pdf}
+
+	\end{center}
+
+	\vfill
+
+	\begin{tabular}{llll}
+		\textsc{\textbf{option}} 
+			& $\square$ EOC & $\boxtimes$ LEC & $\square$ ISI \\
+		\textsc{\textbf{confidentialité}} 
+			& \multicolumn{3}{l}{Mon rapport est confidentiel $\square$ 1 (moy) $\square$ 2 (élevé)} \\
+		\textsc{\textbf{domaine entrprise}}	
+			& \multicolumn{3}{l}{$\boxtimes$ Cybersécurité, data science et intelligence artificielle} \\
+			& \multicolumn{3}{l}{$\square$ Véhicules intelligents} \\
+			& \multicolumn{3}{l}{$\square$ Santé} \\
+			& \multicolumn{3}{l}{$\square$ Développement durable et villes intelligente}\\
+			& \multicolumn{3}{l}{$\square$ Industrie du futur} \\
+			& \multicolumn{3}{l}{$\square$ Ingénierie d'affaires} \\		
+	\end{tabular}
+
+	\vspace*{0.75cm}
+
+	\SupervisorSection
+
+	\TutorSection
+	\vspace{2cm}
+
+\end{titlepage}
+
+%Paramétrage de l'en-tête et du pied-de-page
+\fancyhead[L]{\includegraphics[scale=0.2]{data/ESEO_LOGO.pdf}}
+\fancyhead[R]{\includegraphics[scale=0.15]{data/Thales_LOGO.PNG}}
+\fancyhead[C]{\@title}
+\fancyfoot[L]{\SemesterSection}
+\fancyfoot[R]{\CycleSection}
+\fancyfoot[C]{\thepage}
+
+\newpage
+\large{\textsc{\textbf{Engagement de non-plagiat}}}
+\vspace*{0.5cm}
+
+Je soussigné, \Author, étudiant à l'ESEO, atteste avoir pris connais-
+sance du contenu du Règlement intérieur de l'École et de l'engagement de « non-plagiat
+». Je déclare m'y conformer dans le cadre de la rédaction de ce document. Je déclare sur
+l'honneur que le contenu du présent mémoire est original et reflète mon travail personnel.
+J'atteste que les citations sont correctement signalées par des guillemets et que les sources
+de tous les emprunts ponctuels à d'autres auteur(e)s, textuels ou non textuels, sont indi-
+quées. Le non-respect de cet engagement m'exposerait à des sanctions dont j'ai bien pris
+connaissance.
+
+Fait à ......... le .......
+
+Signature
+
+\newpage
+\large{\textsc{\textbf{Remerciements}}}
+\vspace*{0.5cm}
+
+\newpage
+\vspace*{1cm}
+\tableofcontents
+
+\newpage
+\large{\textsc{\textbf{Fiche de synthèse}}}
+\vspace*{0.5cm}
+
+\textbf{Sujet} : \Subject
+
+\textbf{Entreprise} : Thales SIX GTS, 49300 Cholet, France
+
+\textbf{Dates du projet} : 1er septembre 2024 au 28 août 2025
+
+\textbf{Collaborateurs} : Jean-Christophe DUBOIS, Bruno LETELLIER \\\\
+\textbf{Résumé} : problématique objectifs au format SMART, planning synthétique (réalisations PERSONNELLES de l'apprenti), démarche pour résoudre le problème, résultats quantitatifs en lien avec les objectifs, conclusion et implications pour l'entreprise.
+
+\newpage
+\large{\textsc{\textbf{Abstract}}}
+\vspace*{0.5cm}
+
+The abstract is NOT a summary of your report, it should work as a teaser with a fix
+structure :
+
+1) Starting point -Motivation (Why do we care about the problem and the results ?)
+
+2) Questioning = Key question (What problem are you trying to solve ? What is the scope
+of your work ?)
+
+3) Research objectives ?
+
+4) Process / Approach / implementation (How did you go about solving or making pro-
+gress on the problem ? Did you use simulation, analytic models, prototype construction,
+or analysis of field data for an actual product or service, etc. ?)
+
+5) Results/Outcomes - When presenting results, you should give enough information
+about how the findings were obtained so that the broad outlines of your reasoning can
+be easily understood without disclosing too much detail about your research. (What is the
+answer ? What are the exact results/figures ?)
+
+6) Conclusions - closing sentences with hypotheses and implications (What are the impli-
+cations of your answer ? Are your results general, potentially generalizable, or specific to
+a particular case ?)
+
+\newpage
+\section{Introduction}
+
+\newpage
+\section{Contexte}
+
+\subsection{Service, position de l'apprenant}
+
+\subsection{Contexte du projet}
+
+\subsection{Contexte technique ou métier}
+
+\subsection{Impacts sociaux-écologiques}
+
+\newpage
+\section{Problématique}
+
+\subsection{Problématique spécifique}
+
+\subsection{Personnes impactées}
+
+\subsection{Quantification des impacts}
+
+\newpage
+\section{Buts et objectifs}
+
+\subsection{Buts et objectifs SMART}
+
+\subsection{Gains et coûts attendus}
+
+\subsection{Identification des acteurs}
+
+\subsection{Analyse des risques / SWOT}
+
+\newpage
+\section{Démarche}
+
+\subsection{Démarche générale}
+
+\subsubsection{Démarche générale}
+
+\subsubsection{Méthodologie, techniques et technologies}
+
+\subsection{Lotissement}
+
+\subsubsection{Lotissement cohérent}
+
+\subsection{Planning prévisionnel}
+
+\subsubsection{Planning prévisionnels}
+
+\newpage
+\section{Conclusion}
+
+\newpage
+\section{Bibliographie}
+
+\newpage
+\section{Glossaire}
+
+\newpage
+\appendix
+
+\section{Annexes}
+\end{document}
