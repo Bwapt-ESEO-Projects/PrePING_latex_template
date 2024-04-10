@@ -1,0 +1,13 @@
+# Exclude all files
+*
+
+# Include files in /data directory
+!data/
+!data/*
+
+!section/
+!section/*
+
+# Include .tex files
+!*.tex
+!.gitignore
