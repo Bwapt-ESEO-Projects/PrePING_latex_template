@@ -1,5 +1,5 @@
 %------------------------------------------------ SETUP ---------------------------------------------------------------%  
-\input{text.tex}
+\input{def.tex}
 
 %Packages
 \usepackage[T1]{fontenc}
@@ -28,7 +28,6 @@
 \pagestyle{fancy}
 \fancyhf{}
 
-
 \renewcommand{\arraystretch}{1.5}
 
 %Définition de la page de garde
@@ -36,6 +35,15 @@
 \author{\Subtitle}
 \date{\today}
 \makeatletter
+
+\newcommand{\entetepiedpage}{
+	\fancyhead[L]{\includegraphics[scale=0.2]{data/ESEO_LOGO.pdf}}
+	\fancyhead[R]{\includegraphics[scale=0.15]{data/Thales_LOGO.PNG}}
+	\fancyhead[C]{\@title}
+	\fancyfoot[L]{\SemesterSection}
+	\fancyfoot[R]{\CycleSection}
+	\fancyfoot[C]{\thepage}
+}
 
 \definecolor{darkWhite}{rgb}{0.94,0.94,0.94}
 
